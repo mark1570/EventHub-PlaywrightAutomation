@@ -25,30 +25,6 @@ This repository demonstrates practical QA automation for an event-booking web ap
 ├── tests/
 ├── .gitignore
 ├── package.json
-��── playwright.config.js
+├── playwright.config.js
 ├── README.md
 └── screenshot.png
-```
-
-## Prerequisites
-- Node.js installed
-- npm or yarn
-- Playwright dependencies installed
-
-## Installation
-```bash
-npm install
-```
-
-## Running Tests
-```bash
-npx playwright test
-```
-
-## View HTML Report
-```bash
-npx playwright show-report
-```
-
-## Notes
-This project is designed to simulate real-world test automation practices for modern web applications using Playwright and maintainable page abstractions.
