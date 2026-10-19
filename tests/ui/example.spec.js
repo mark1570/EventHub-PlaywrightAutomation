@@ -5,7 +5,6 @@ test('Login Test', async ({ page }) => {
   await page.locator('#username').fill("rahulshettly");
   await page.locator("[type='password']").fill("learning");
   await page.locator('#signInBtn').click();
-
 });
 
 
